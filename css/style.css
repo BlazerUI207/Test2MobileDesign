@@ -1,0 +1,171 @@
+p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    font-size: 17px;
+    font-family: fantasy;
+}
+
+main {
+    min-height: 100vh;
+}
+
+header {
+    background: lightseagreen;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 15px 5px 15px;
+}
+
+navbar {
+    margin-left: 300px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+navbar a {
+    color: dimgray;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+navbar a:hover {
+    color: darkkhaki;
+    text-decoration: underline 7px;
+}
+
+
+footer {
+    min-height: 80px;
+    background: black;
+    text-align: center;
+    color: moccasin;
+    padding-top: 35px;
+
+}
+
+.logo {
+    height: 50px;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.harta {
+    width: 100%;
+    height: 40vh;
+    border: 2px solid #fa9483;
+    border-radius: 5px;
+}
+
+.rows {
+    overflow: auto;
+}
+
+.centred {
+    text-align: center;
+}
+
+.contacte {
+    border: 2px solid #fcae386b;
+    border-radius: 5px;
+    background-color: rgba(206, 202, 202, 0.486);
+    padding: 5px 5%;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.cform {
+    border: 2px solid #fcae386b;
+    border-radius: 5px;
+    background-color: rgba(206, 202, 202, 0.486);
+    padding: 5px 5%;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.cform input,
+.cform textarea {
+    width: 100%;
+    font-size: 15px;
+    font-family: inherit;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+}
+.vframe{
+    width: 100%;
+height: 30vw;
+border: 2px solid;
+border-radius: 5px;
+box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.loc{
+    overflow: auto;
+border-bottom: 3px #FCAF38 dashed;
+margin-bottom: 10px;
+}
+
+.loc img{
+    height: 18vh;
+width: 18vh;
+object-fit: cover;
+border-radius: 50%;
+float: left;
+margin-right: 15px;
+margin-bottom: 15px;
+}
+
+#hamburger{
+    color: aliceblue;
+font-size: 28px;
+position: absolute;
+right: 22px;
+top: 24px;
+cursor: pointer;
+display: none;
+}
+
+@media(max-width: 800px){
+    body{
+        font-size: 16px;
+    }
+    section{
+        padding: 90px 10px;
+    }
+navbar{
+        display:block;
+    }
+navbar a{
+        display: none;
+    }
+navbar.mobile a{
+        display: block;
+        text-align: center;
+        margin-top: 12px;
+    }
+#hamburger{
+    display: block;
+}
+.index-info h1 {
+    font-size: 250%;
+    }
+    
+    .vframe {
+    height: 55vw;
+    }
+    
+    [class^="col-"] {
+    width: 100% !important;
+    
+}
